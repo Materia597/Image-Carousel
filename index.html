@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <!-- Tutorial video address:
+        https://www.youtube.com/watch?v=9HcxHDS2w1s&list=LL&index=4&t=294s&ab_channel=WebDevSimplified
+    -->
+
+    <section aria-label="newest photos">
+
+        <!--    this div contains the elements of the image carousel-->
+        <div class="carosel" data-carosel>
+            <!-- These buttons are what cause the slides to change-->
+            <button class="carosel-button prev" data-carosel-button="prev">&#8656;</button>
+            <button class="carosel-button next" data-carosel-button="next">&#8658;</button>
+            
+            <!--this list holds all the slides-->
+            <ul data-slides>
+                <!--Each list item is an image container, and this is what shows up-->
+                <li class="slide" data-active>
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80" alt="photo #1">
+                </li>
+                <li class="slide">
+                    <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="photo #2">
+                </li>
+                <li class="slide">
+                    <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="photo #3">
+                </li>
+            </ul>
+        </div>
+        
+    </section>
+</body>
+</html>
